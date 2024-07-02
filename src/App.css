@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(156, 177, 114);
+}
+
+.currency-converter{
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 10px  black;
+}
+
+h1{
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px 0;
+  margin-bottom: 15px;
+  color: rgb(113, 165, 167);
+  text-align: center;
+  border-bottom: 2px dashed #000000;
+  border-top: 2px dashed #000000;
+}
+.box{
+  width: 100%;
+  height: 150px;
+  background-image: url("./assets/currencylogo.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.input-container{
+  margin-bottom: 15px;
+}
+label{
+  display: block;
+  margin-bottom: 5px;
+  color: #888;
+  font-weight: 500;
+}
+
+input,
+select{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+  outline: none;
+}
+
+input:focus,
+select:focus{
+  border-color: rgb(113, 165, 167);
+}
+
+.result{
+  margin: 20px 0px;
+  padding: 10px;
+  border: 2px dotted rgb(113, 165, 167);
+  border-radius: 4px;
+}
+
+.result p{
+  margin: 10px 0;
+  color: rgb(113, 165, 167);
+  font-weight: bold;
+  text-align: center;
+}
