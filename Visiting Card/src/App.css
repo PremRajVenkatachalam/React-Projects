@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(226, 214, 214);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav {
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 0 rgba(117, 110, 110, 0.432);
+}
+.navheading {
+  font-size: 25px;
+  font-family: 'Merienda', cursive;
+  padding: 3px;
+  color: rgb(64, 64, 138);
+}
+.navheading1 {
+  font-size: 25px;
+  font-family: 'Merienda', cursive;
+  padding: 3px;
+  color: rgb(30, 130, 30);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container1{
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  box-shadow: 5px 5px 5px 0 #6d6262;
+  border-radius: 40px;
+  position: relative;
+}
+.logo{
+    margin-top: 30px;
+    height: 60px;
+    width: 60px;
+}
+
+.container1Text{
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-size: small;
+  color: #888;
+}
+
+.container2{
+  width: 500px;
+  height: 350px;
+  background-color: #6d6262;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  /* box-shadow: 5px 5px 5px 0 #6d6262; */
+  border-radius: 40px;
+}
+
+.profile{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 90px;
+}
+
+.text1{
+  margin-top: 100px;
+  font-weight: 600;
+  color: white;
+}
+.text2{
+  margin-top: 15px;
+  font-weight: 300;
+  font-size: 23px;
+  color: white;
+}
+.text3{
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 15px;
+  color: white;
+}
+.text4{
+  margin: 0px 25px 0 25px;
+  margin-top: 25px;
+  font-weight: 200;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+.text5{
+  margin: 0px 25px 0 25px;
+  margin-top: 20px;
+  font-weight: 200;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button1, .button2, .button3, .button4{
+  background-color: white;
+  width: 500px;
+  padding: 13px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 0 rgba(117, 110, 110, 0.432);
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.button1:hover, .button2:hover, .button3:hover, .button4:hover{
+  background-color: #6d6262;
+  color: white;
+  width: 525px;
+}
+
+.logo1, .logo2, .logo3, .logo4{
+  height: 25px;
+  width: 25px;
+  margin-left: 20px;
+}
+
+.logo1{
+  margin-right: 145px;
+}
+.logo2, .logo3, .logo4{
+  margin-right: 135px;
+}
+
+.horizontal-line {
+  margin: 30px auto; 
+  width: 280px; 
+  height: 3px; 
+  background-color: #6d6262; 
+  border: none;
+}
+
+.logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.twitterlogo{
+  width: 45px;
+  height: 45px;
+}
+
+.qrcodelogo {
+  width: 40px;
+  height: 40px;
+}
+
+.twitterlogo:hover, .linkedinlogo:hover, .qrcodelogo:hover{
+  transform: scale(1.2);
+}
+
+.qrBack{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.backButton{
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0 rgba(117, 110, 110, 0.432);
+  cursor: pointer;
+}
+
+.backButton:hover{
+  background-color: #6d6262;
+  color: white;
+  transform: scale(1.1);
+}
