@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #383232;
+}
+
+.calendar{
+  width: 400px;
+  background-color: white;
+  margin: 50px auto;
+  box-shadow: 0 0 10px black;
+  padding: 5px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(44, 44, 214);
+  color: white;
+  padding: 5px;
+}
+
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+
+select{
+  font-size: 18px;
+  padding: 0px 8px;
+  border: 1px solid rgb(44, 44, 214);
+  border-radius: 4px;
+  margin: 0 10px;
+}
+
+.daysOfWeek{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: rgb(44, 44, 214);
+  color: white;
+  margin-bottom: 10px;
+}
+
+.days{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.day, .empty{
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.empty{
+  background-color: #f9f9f9;
+}
+.day:hover{
+  background-color: rgb(44, 44, 214);
+  color: #fff;
+}
+
+.current{
+  background-color: tomato;
+  color: #fff;
+}
