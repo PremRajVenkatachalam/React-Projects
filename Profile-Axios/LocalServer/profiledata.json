@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Alice Johnson",
+      "position": "Frontend Developer",
+      "email": "alice.johnson@example.com",
+      "location": "New York, USA",
+      "image": "/images/Image1.jpg",
+      "description": "Alice is a talented frontend developer with over 5 years of experience in building responsive and interactive web applications. She specializes in HTML, CSS, and JavaScript frameworks like React and Angular."
+    },
+    {
+      "name": "Bob Smith",
+      "position": "Backend Developer",
+      "email": "bob.smith@example.com",
+      "location": "San Francisco, USA",
+      "image": "/images/image2.jpg",
+      "description": "Bob is a skilled backend developer with expertise in server-side technologies. He has a strong background in Node.js, Express, and database management. Bob is passionate about optimizing server performance and ensuring secure data transactions."
+    },
+    {
+      "name": "Charlie Brown",
+      "position": "Full Stack Developer",
+      "email": "charlie.brown@example.com",
+      "location": "London, UK",
+      "image": "/images/Image1.jpg",
+      "description": "Charlie is a versatile full stack developer who excels in both frontend and backend development. With a comprehensive understanding of the entire web development process, Charlie delivers seamless and robust applications."
+    },
+    {
+      "name": "Diana Prince",
+      "position": "Project Manager",
+      "email": "diana.prince@example.com",
+      "location": "Sydney, Australia",
+      "image": "/images/Image3.png",
+      "description": "Diana is an experienced project manager known for her strategic planning and efficient project execution. She has successfully managed multiple large-scale projects and is adept at coordinating cross-functional teams to achieve project goals."
+    },
+    {
+      "name": "Ethan Hunt",
+      "position": "DevOps Engineer",
+      "email": "ethan.hunt@example.com",
+      "location": "Toronto, Canada",
+      "image": "/images/image2.jpg",
+      "description": "Ethan is a proficient DevOps engineer with expertise in continuous integration and continuous deployment (CI/CD) pipelines. He is dedicated to automating processes and improving system reliability through innovative DevOps practices."
+    }
+  ]
